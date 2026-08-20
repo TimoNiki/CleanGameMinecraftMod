@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "cleangame",
+  "version": "1.0.0",
+  "name": "CleanGame",
+  "description": "Очищает список серверов от LAN спама. By TimoNiki",
+  "environment": "client",
+  "entrypoints": {},
+  "mixins": [
+    "cleangame.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": ">=26.1 <=26.3",
+    "java": ">=25"
+  }
+}
