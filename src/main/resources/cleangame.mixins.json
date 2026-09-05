@@ -1,0 +1,13 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "net.timoniki.cleangame.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "client": [
+        "LanServerListMixin",
+        "LanServerListAccessor"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}

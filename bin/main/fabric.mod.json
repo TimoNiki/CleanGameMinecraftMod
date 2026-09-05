@@ -1,0 +1,28 @@
+{
+    "schemaVersion": 1,
+    "id": "cleangame",
+    "version": "${version}",
+    "name": "CleanGame",
+    "description": "limits displayed lan servers in the multiplayer menu",
+    "authors": [
+        "TimoNiki"
+    ],
+    "contact": {},
+    "license": "MIT",
+    "icon": "assets/cleangame/icon.png",
+    "environment": "client",
+    "entrypoints": {
+        "client": [
+            "net.timoniki.cleangame.CleanGameMod"
+        ]
+    },
+    "mixins": [
+        "cleangame.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=${loader_version}",
+        "minecraft": "~${minecraft_version}",
+        "java": ">=21",
+        "fabric-api": "*"
+    }
+}
