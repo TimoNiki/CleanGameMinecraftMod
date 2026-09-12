@@ -36,8 +36,6 @@ public abstract class JoinMultiplayerScreenMixin extends Screen {
                     button.setMessage(getButtonText());
                 }
         ).bounds(x, y, width, height).build();
-
-        // Добавляем кнопку на экран с помощью метода из RadminPlus
         this.addRenderableWidget(antiSpamButton);
     }
 
