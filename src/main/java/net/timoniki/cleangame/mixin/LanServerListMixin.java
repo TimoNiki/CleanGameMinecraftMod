@@ -18,7 +18,7 @@ public class LanServerListMixin {
     @Unique
     private static final ConcurrentHashMap<String, AtomicInteger> ipServerCount = new ConcurrentHashMap<>();
     @Unique
-    private static final int MAX_SERVERS_PER_IP = 7;
+    private static final int MAX_SERVERS_PER_IP = 3;
 
     @Inject(method = "addServer", at = @At("HEAD"), cancellable = true)
     private void onAddServer(String motd, InetAddress address, CallbackInfo ci) {

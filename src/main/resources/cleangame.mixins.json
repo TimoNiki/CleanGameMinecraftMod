@@ -5,7 +5,8 @@
     "compatibilityLevel": "JAVA_21",
     "client": [
         "LanServerListMixin",
-        "LanServerListAccessor"
+        "LanServerListAccessor",
+        "JoinMultiplayerScreenMixin"
     ],
     "injectors": {
         "defaultRequire": 1
